@@ -3,12 +3,12 @@
     margin: 0;
 }
 body{
-    background-color: #cadbe0;
+    background-color: #caecf7;
 }
 nav{
     width: 100%;
     height: 100px;
-    background-color: #c892f5;
+    background-color:#22b4e0 ;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -21,7 +21,7 @@ input{
     height: 40px;
 }
 .search{
-    background-color: rgb(126, 214, 185);
+    background-color: #7ed6b9;
     color: #6dc4e0;
     padding: 8px;
     margin-left: -30px;
@@ -50,7 +50,7 @@ input{
     padding: 15px;
 }
 .categories h2{
-    background-color: #c892f5;
+    background-color: #22b4e0;
     color: #fff;
     text-align: center;
     padding-bottom: 5px;
@@ -65,7 +65,66 @@ input{
     text-decoration: none;
     color: #0a0202;
 }
+.laptop-img{
+    background: linear-gradient(to left, #22b4e0, #f5f5f5);
+    border: 1px solid #f5ead6;
+   /* background-image: url(./hero/img.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;  */
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.laptop-img h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#0644ee;
+    text-align: center;
+    font-size: 28px;
+}
+.Smart-phones{
+    margin-left: 20px;
+}
+.group-phones{
 
+}
+/* .Smart-phones{
+    margin-left: 20px;
+}
+.phone-category{
+    display: flex;
+}
+.mobile{
+    background-color: #f5f5f5;
+    width: 150px;
+    height: 150px;
+}
+.phone-category h3{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+.phone-category{
+      display: flex;
+      justify-content: space-between;
+      /* padding-bottom: 20px; */
+      /* margin: 40px 40px 40px 40px; 
+  }
+.mobile{
+      height: 350px;
+      border: 2px solid black;
+      background-color: wheat;
+      border-radius: 5px;
+      padding-bottom: 10px;
+  }
+.mobile img{
+      width: 150px;
+      height:150px;
+      border-radius: 5px;
+      filter: opacity(0.9);
+  } */
 
 
 
@@ -122,4 +181,5 @@ input{
     .cart img{
         padding-left: 5px;
     }
+    
 }
