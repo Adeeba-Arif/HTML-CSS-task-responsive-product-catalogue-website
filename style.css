@@ -271,11 +271,94 @@ footer{
     }
     .cart{
         padding: 0px 15px;
+        margin-top: 10px;
         width: 15px;
         height: 15px;
     }
     .cart img{
         padding-left: 5px;
     }
-    
+    .categories{
+        width: 90%;
+        margin-left: 70px;
+    }
+    .categories h2{
+        font-size: medium;
+        height: 30px;
+    }
+    .categories ul li a{
+        font-size: medium;
+    }
+    .home{
+        display: block;
+        width: 80%;
+    }
+    .laptop-img{
+        visibility: hidden;
+    }
+    #heading1{
+        margin-top: -250px;
+        font-size: medium;
+    }
+    .group-phones{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+        gap: 5px;
+    }
+    .mobile{
+        margin-bottom: 10px;
+    }
+    .mobile h6{
+        margin-top: 15px;
+        font-size: small;
+    }
+    #heading2{
+        font-size: medium;
+        margin-top: 40px;
+    }
+    .laptop-group{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 50px;
+        gap: 30px;
+    }
+    .laptop{
+        width: 300px;
+        height: 300px;
+    }
+    .laptop img{
+        width: 250px;
+        height: 250px;
+    }
+    .laptop h6{
+        font-size: small;
+    }
+    #watch-heading{
+        font-size: medium;
+    }
+    .watch-group{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 700px;
+        margin-left: 50px;
+    }
+    .watch h6{
+        font-size: small;
+    }
+    footer{
+        justify-content: right;
+        display: grid;
+        height: 70px;
+        width: 100%;
+    }
+    .icons{
+        margin-bottom: 5px;
+        gap: 5px;
+    }
+    .footer p{
+        font-size: small;
+        margin-top: -20px;
+        margin-left: -10px;
+    }
 }
