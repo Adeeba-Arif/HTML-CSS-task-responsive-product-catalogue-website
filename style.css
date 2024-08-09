@@ -440,6 +440,113 @@ footer{
      font-weight: 300 bold;
  }
 }
+@media(max-width:670px){
+    nav{
+        height: 60px;
+    }
+    #logo{
+        margin-top: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    input{
+        margin-top: 5px;
+        width: 350px;
+    }
+    .search{
+        background-color: transparent;
+        color: black;
+        padding-top: 2px;
+        margin-left: -35px;
+    }
+    .cart{
+        padding: 0px 15px;
+        margin-top: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .cart img{
+        padding-left: -5px;
+    }
+    .categories h2{
+        font-size: large;
+        height: 40px;
+    }
+    .categories ul li a{
+        font-size: medium;
+    }
+    .home{
+        display: grid;
+        grid-template-columns: 30% 65%;
+        margin: 30px 0;
+        justify-content: space-evenly;
+    }
+    .laptop-img h3{
+        margin-left: 5px;
+        font-weight: 400;
+    }
+    .laptop-img img{
+        width: 350px;
+        height: 200px;
+    }
+     #heading1{
+        margin-top: 40px;
+        font-weight: 300 bold;
+    }
+    .group-phones{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 55px;
+        gap: 10px;
+    }
+    .mobile{
+        margin-bottom: 10px;
+    }
+    .mobile h6{
+        margin-top: 10px;
+        font-weight: 300 bold;
+    }
+    #heading2{
+        font-weight: 300 bold;
+        margin-top: 40px;
+    }
+    .laptop-group{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .laptop{
+        width: 300px;
+        height: 300px;
+    }
+    .laptop img{
+        width: 250px;
+        height: 250px;
+    }
+    .laptop h6{
+        font-weight: 300 bold;
+    }
+    #watch-heading{
+        font-weight: 300 bold;
+    }
+    .watch-group{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-evenly; 
+        gap: 20px; 
+        padding-bottom: 20px;
+    }
+    footer{
+        height: 70px;
+        width: 100%;
+    }
+    .icons{
+        gap: 5px;
+    }
+    .footer p{
+        font-weight: 300 bold;
+    }
+   }
 /* mobile */
 @media(max-width:400px){
     nav{
