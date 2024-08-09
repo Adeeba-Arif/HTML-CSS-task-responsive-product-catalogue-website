@@ -225,7 +225,7 @@ footer{
     font-size: large;
 }
 
-/* small screens */
+/* small screens
 @media(max-width:100px){
     nav{
         height: 80px;
@@ -250,7 +250,7 @@ footer{
     .cart img{
         padding-left: 7px;
     }
-}
+} */
 /* mobile */
 @media(max-width:400px){
     nav{
@@ -303,7 +303,7 @@ footer{
     .group-phones{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* margin-left: 10px; */
+        margin-left: 10px;
         gap: 5px;
     }
     .mobile{
@@ -320,7 +320,7 @@ footer{
     .laptop-group{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* margin-left: 50px; */
+        margin-left: 50px;
         gap: 30px;
     }
     .laptop{
@@ -341,7 +341,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 700px;
-        /* margin-left: 50px; */
+        margin-left: 50px;
     }
     .watch h6{
         font-size: small;
@@ -358,7 +358,6 @@ footer{
     }
     .footer p{
         font-size: small;
-        margin-top: -20px;
-        margin-left: -10px;
+        margin-top: -0px;
     }
 }
